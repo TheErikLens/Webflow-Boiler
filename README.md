@@ -29,3 +29,42 @@ A personal collection of reusable code snippets, techniques, and best practices 
 ## Suggested Directory Structure
 
 For organizational purposes, snippets are categorized into folders:
+
+Webflow-Boiler/
+├── README.md # This file: Main overview & Table of Contents
+├── css-snippets/ # Folder for CSS-only snippets
+│ └── limit-items-by-breakpoint.md
+│ └── ... (other .md files for CSS snippets)
+├── js-snippets/ # Folder for JavaScript snippets
+│ └── ... (other .md files for JS snippets)
+├── integrations/ # For snippets integrating third-party services
+│ └── ...
+└── assets/ # Optional: For images used in .md explanations
+└── ...
+
+
+## Contributing (To My Own Boilerplate)
+
+1.  **Identify the Category:** Determine if the snippet is CSS, JavaScript, an integration, etc.
+2.  **Create a New Markdown File:**
+    *   Navigate to the appropriate sub-folder (e.g., `css-snippets/`).
+    *   Create a new `.md` file with a descriptive name (e.g., `custom-animated-button.md`).
+3.  **Document the Snippet:** Use a consistent format within the `.md` file:
+    *   Title
+    *   Category, Author/Source, Date Added
+    *   Description
+    *   Code Block(s)
+    *   How to Use and Customize
+    *   Placement Instructions (Webflow specific)
+    *   Example Scenario (if helpful)
+    *   Tags (optional, for searchability)
+4.  **Update Table of Contents:** Add a link to the new snippet in this main `README.md` file under the relevant category.
+5.  **Commit and Push:**
+    ```bash
+    git add .
+    git commit -m "Add: [Brief description of the new snippet]"
+    git push origin main # or your default branch
+    ```
+
+---
+*This boilerplate is for personal use and continuous improvement. Feel free to adapt it to your own needs.*
