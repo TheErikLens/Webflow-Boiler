@@ -12,7 +12,7 @@ File: css-snippets/limit-items-by-breakpoint.md
 # Limit Displayed List Items by Breakpoint
 
 **Category:** CSS
-**Author/Source:** Érick Vallart (adapted)
+**Author/Source:** Erik Lens (adapted)
 **Date Added:** YYYY-MM-DD (when you added it to your repo)
 
 ## Description
