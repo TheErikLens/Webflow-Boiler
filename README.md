@@ -1,35 +1,45 @@
-# Webflow-Boiler
-A boilerplate for Webflow development.
+# Webflow-Boiler 🚀
 
-- css-snippets/: For pure CSS solutions. Each snippet gets its own Markdown file.
-- js-snippets/: For JavaScript solutions. Each snippet gets its own Markdown file.
-- integrations/: For more complex snippets that involve integrating external services or libraries (e.g., custom Mailchimp form handling, Typeform styling).
-- assets/: If your explanations need images or diagrams, store them here and link to them from your .md files.
+    A collection of handy code snippets for Webflow projects.
+    These snippets are designed to be easily copied and pasted into Webflow's custom code sections.
 
-Individual Snippet File Format (e.g., limit-items-by-breakpoint.md)
-Each .md file for a snippet should follow a consistent format. Using the example you provided:
-File: css-snippets/limit-items-by-breakpoint.md
-# Limit Displayed List Items by Breakpoint
+    ## Table of Contents
 
-**Category:** CSS
-**Author/Source:** Erik Lens (adapted)
-**Date Added:** YYYY-MM-DD (when you added it to your repo)
+    ### CSS Snippets
+    *   [Limit Displayed List Items by Breakpoint](./css-snippets/limit-items-by-breakpoint.md)
+    *   *[Add new CSS snippets here]*
 
-## Description
+    ### JavaScript Snippets
+    *   *[Add new JS snippets here]*
 
-This CSS snippet allows you to control the number of items displayed in a list (e.g., a Webflow Collection List, blog post feed, product grid) based on the screen width. It's particularly useful for showing fewer items on smaller screens (mobile/tablet) to improve layout and user experience, while showing all or more items on larger screens.
+    ### Integrations
+    *   *[Add new integration snippets here]*
 
-## Code
+    ## How to Use
+    1. Browse the Table of Contents or navigate the folders.
+    2. Click on a snippet to view its details.
+    3. Follow the instructions within the snippet's `.md` file to implement it in your Webflow project.
 
-```html
-<style>
-  /*
-    Limit items displayed in a list on smaller screens.
-    Example: Show only the first 3 items on screens 991px wide or less.
-  */
-  @media screen and (max-width: 991px) {
-    .your-collection-list-wrapper .your-collection-item:nth-child(n+4) {
-      display: none;
-    }
-  }
-</style>
+    ## Contributing (to my own repo)
+    1. Create a new `.md` file in the relevant category folder (e.g., `css-snippets/`).
+    2. Follow the established format for snippet documentation.
+    3. Add a link to the new snippet in this `README.md`'s Table of Contents.
+    4. Commit and push changes.
+    ```
+
+6.  **Commit and Push Your Changes:**
+    ```bash
+    git add .  # Stages all new and modified files
+    git commit -m "Add: CSS snippet for limiting items by breakpoint"
+    git push origin main # Or your default branch name (e.g., master)
+    ```
+
+**For Future Snippets:**
+
+1.  Decide on the category (CSS, JS, etc.).
+2.  Create a new `.md` file in that category's folder (e.g., `js-snippets/my-new-script.md`).
+3.  Write the content for the snippet in the `.md` file using the established format.
+4.  Add a link to the new snippet in the main `README.md`'s Table of Contents.
+5.  `git add .`
+6.  `git commit -m "Add: [Brief description of snippet]"`
+7.  `git push origin main`
