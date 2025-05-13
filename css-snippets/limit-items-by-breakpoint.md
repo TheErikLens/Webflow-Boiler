@@ -66,7 +66,7 @@ How to Use and Customize
 4.  **Placement (Webflow):**
     
     *   You'll need to wrap the CSS code in  tags:</div></li></ul></li></ol><p class="slate-paragraph"></p></x-turndown>
-```
+```css
     <style>
   /* Mobile Landscape and Smaller: Show only first 3 items in specific collection */
   @media screen and (max-width: 991px) {
@@ -91,7 +91,7 @@ Let's say you have a product grid with the CSS class .product-grid for the wra
 
 Your CSS (to be placed inside  tags in Webflow) would be:</p><p class="slate-paragraph"></p></x-turndown>
 
-```
+```css
 /* Mobile Landscape and Smaller: Show only first 2 products */
 @media screen and (max-width: 767px) {
   .product-grid .product-card:nth-child(n+3) { /* Show 2 items, so hide from (2+1)=3rd item onwards */
