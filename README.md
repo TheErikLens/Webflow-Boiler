@@ -1,13 +1,13 @@
 # Webflow-Boiler 🚀
 
-    A collection of handy code snippets for Webflow projects.
-    These snippets are designed to be easily copied and pasted into Webflow's custom code sections.
+A collection of handy code snippets for Webflow projects.
+These snippets are designed to be easily copied and pasted into Webflow's custom code sections.
 
-    ## Table of Contents
+## Table of Contents
 
-    ### CSS Snippets
-    *   [Limit Displayed List Items by Breakpoint](./css-snippets/limit-items-by-breakpoint.md)
-    *   *[Add new CSS snippets here]*
+### CSS Snippets
+*   [Limit Displayed List Items by Breakpoint](./css-snippets/limit-items-by-breakpoint.md)
+*   *[Add new CSS snippets here]*
 
     ### JavaScript Snippets
     *   *[Add new JS snippets here]*
@@ -25,7 +25,6 @@
     2. Follow the established format for snippet documentation.
     3. Add a link to the new snippet in this `README.md`'s Table of Contents.
     4. Commit and push changes.
-    ```
 
 6.  **Commit and Push Your Changes:**
     ```bash
